@@ -3,7 +3,6 @@ import "../styles/OrderItem.scss";
 import close from "@icons/icon_close.png";
 
 const OrderItem = ({ product }) => {
-  console.log(product);
   return (
     <div className="OrderItem">
       <figure>
